@@ -4,6 +4,8 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.graphics.Typeface;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -15,6 +17,11 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
     private static final int NOTIFICATION_PERMISSION_REQUEST = 606;
+    private static final int BLACK = Color.rgb(7, 10, 13);
+    private static final int GRAPHITE = Color.rgb(18, 24, 32);
+    private static final int WHITE = Color.rgb(232, 238, 242);
+    private static final int GREEN = Color.rgb(124, 255, 107);
+    private static final int CYAN = Color.rgb(52, 214, 255);
     private TextView status;
     private int pendingWorkout = -1;
 
@@ -31,18 +38,18 @@ public class MainActivity extends Activity {
 
     private void showScreen() {
         ScrollView scroll = new ScrollView(this);
-        scroll.setBackgroundColor(Color.rgb(255, 248, 252));
+        scroll.setBackgroundColor(BLACK);
 
         LinearLayout root = new LinearLayout(this);
         root.setOrientation(LinearLayout.VERTICAL);
         root.setPadding(dp(22), dp(28), dp(22), dp(30));
         scroll.addView(root);
 
-        TextView title = text("Treino da Luana", 30, Color.rgb(84, 31, 61));
+        TextView title = text("TREINO DA LUANA", 28, WHITE);
         title.setGravity(Gravity.CENTER);
         root.addView(title, fullWidth());
 
-        TextView subtitle = text("Versão 6, teste nativo para Xiaomi", 16, Color.DKGRAY);
+        TextView subtitle = text("V6 // MAROMBA TECH", 15, CYAN);
         subtitle.setGravity(Gravity.CENTER);
         subtitle.setPadding(0, dp(6), 0, dp(24));
         root.addView(subtitle, fullWidth());
@@ -51,21 +58,27 @@ public class MainActivity extends Activity {
             final int workout = index;
             Button button = new Button(this);
             button.setAllCaps(false);
-            button.setText("Treino " + WorkoutData.LETTERS[index] + "\n" + WorkoutData.TITLES[index]);
-            button.setTextSize(16);
+            button.setText("TREINO " + WorkoutData.LETTERS[index] + "     READY\n" + WorkoutData.TITLES[index]);
+            button.setTextSize(15);
+            button.setTextColor(WHITE);
+            button.setTypeface(Typeface.MONOSPACE, Typeface.BOLD);
+            button.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+            button.setPadding(dp(18), dp(12), dp(18), dp(12));
+            button.setBackground(panelBackground(CYAN));
             button.setOnClickListener(view -> startWorkout(workout));
             LinearLayout.LayoutParams params = fullWidth();
             params.setMargins(0, 0, 0, dp(10));
             root.addView(button, params);
         }
 
-        status = text("Se você está vendo esta tela, a abertura da versão 6 funcionou.", 16, Color.DKGRAY);
-        status.setPadding(dp(4), dp(14), dp(4), dp(18));
+        status = text("● SYSTEM READY // ABERTURA VALIDADA", 14, GREEN);
+        status.setPadding(dp(12), dp(16), dp(12), dp(18));
         root.addView(status, fullWidth());
 
         Button copy = new Button(this);
         copy.setAllCaps(false);
-        copy.setText("Copiar diagnóstico");
+        copy.setText("COPIAR LOG");
+        styleActionButton(copy);
         copy.setOnClickListener(view -> {
             Diagnostics.copy(this, null);
             Toast.makeText(this, "Diagnóstico copiado", Toast.LENGTH_SHORT).show();
@@ -74,7 +87,8 @@ public class MainActivity extends Activity {
 
         Button email = new Button(this);
         email.setAllCaps(false);
-        email.setText("Enviar diagnóstico por e-mail");
+        email.setText("ENVIAR LOG");
+        styleActionButton(email);
         email.setOnClickListener(view -> {
             try {
                 Diagnostics.send(this, null);
@@ -102,8 +116,8 @@ public class MainActivity extends Activity {
     private void publishWorkout(int workout) {
         try {
             if (NotificationHelper.show(this, workout, 0)) {
-                status.setText("Treino " + WorkoutData.LETTERS[workout]
-                        + " iniciado. Veja o primeiro exercício nas notificações.");
+                status.setText("● TREINO " + WorkoutData.LETTERS[workout]
+                        + " ATIVO // EXERCÍCIO 01 ENVIADO");
             } else {
                 status.setText("Não foi possível mostrar a notificação.");
             }
@@ -130,7 +144,22 @@ public class MainActivity extends Activity {
         view.setText(value);
         view.setTextSize(size);
         view.setTextColor(color);
+        view.setTypeface(Typeface.MONOSPACE);
         return view;
+    }
+
+    private void styleActionButton(Button button) {
+        button.setTextColor(CYAN);
+        button.setTypeface(Typeface.MONOSPACE, Typeface.BOLD);
+        button.setBackground(panelBackground(GREEN));
+    }
+
+    private GradientDrawable panelBackground(int strokeColor) {
+        GradientDrawable background = new GradientDrawable();
+        background.setColor(GRAPHITE);
+        background.setStroke(dp(1), strokeColor);
+        background.setCornerRadius(dp(2));
+        return background;
     }
 
     private LinearLayout.LayoutParams fullWidth() {

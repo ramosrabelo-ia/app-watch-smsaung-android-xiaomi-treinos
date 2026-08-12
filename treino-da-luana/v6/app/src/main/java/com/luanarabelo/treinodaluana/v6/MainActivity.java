@@ -42,8 +42,14 @@ public class MainActivity extends Activity {
 
         LinearLayout root = new LinearLayout(this);
         root.setOrientation(LinearLayout.VERTICAL);
-        root.setPadding(dp(22), dp(28), dp(22), dp(30));
+        root.setPadding(dp(22), dp(72), dp(22), dp(30));
         scroll.addView(root);
+
+        scroll.setOnApplyWindowInsetsListener((view, insets) -> {
+            int safeTop = insets.getSystemWindowInsetTop();
+            root.setPadding(dp(22), safeTop + dp(24), dp(22), dp(30));
+            return insets;
+        });
 
         TextView title = text("TREINO DA LUANA", 28, WHITE);
         title.setGravity(Gravity.CENTER);

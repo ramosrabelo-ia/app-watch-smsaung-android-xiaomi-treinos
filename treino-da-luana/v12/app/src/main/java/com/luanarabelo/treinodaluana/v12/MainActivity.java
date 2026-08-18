@@ -136,8 +136,6 @@ public class MainActivity extends Activity {
         root.addView(createOfficialHero(), full(dp(230)));
         root.addView(space(14));
         root.addView(createWeeklySummary(), full());
-        root.addView(space(12));
-        root.addView(createSyncHomeCard(), full());
         root.addView(space(24));
 
         root.addView(micro("PLANO CONJUGADO", ORANGE), full());
@@ -161,6 +159,9 @@ public class MainActivity extends Activity {
         note.setGravity(Gravity.CENTER);
         note.setPadding(dp(14), dp(18), dp(14), 0);
         root.addView(note, full());
+
+        root.addView(space(24));
+        root.addView(createSyncHomeCard(), full());
 
         setContentView(scroll);
     }

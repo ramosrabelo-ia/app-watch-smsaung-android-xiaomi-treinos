@@ -20,6 +20,7 @@ import java.time.ZoneId
 
 object HealthConnectBridge {
     const val PERMISSION_REQUEST_CODE = 1212
+    private const val HEALTH_CONNECT_PROVIDER = "com.google.android.apps.healthdata"
 
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
     private val mainHandler = Handler(Looper.getMainLooper())
@@ -137,7 +138,7 @@ object HealthConnectBridge {
         try {
             val intent = HealthConnectClient.getHealthConnectManageDataIntent(
                 context,
-                HealthConnectClient.DEFAULT_PROVIDER_PACKAGE_NAME
+                HEALTH_CONNECT_PROVIDER
             ).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             context.startActivity(intent)
         } catch (_: Throwable) {
@@ -146,7 +147,7 @@ object HealthConnectBridge {
     }
 
     private fun openProviderStore(context: Context) {
-        val provider = HealthConnectClient.DEFAULT_PROVIDER_PACKAGE_NAME
+        val provider = HEALTH_CONNECT_PROVIDER
         try {
             val uri = Uri.parse("market://details?id=$provider&url=healthconnect%3A%2F%2Fonboarding")
             context.startActivity(

@@ -1,6 +1,6 @@
 # Treino da Luana v12
 
-Aplicativo Android privado, feito para uso no celular.
+Aplicativo Android privado, feito para uso no celular Xiaomi e no Samsung Galaxy Watch8.
 
 ## O que mudou
 
@@ -13,7 +13,8 @@ Aplicativo Android privado, feito para uso no celular.
 - registro individual das séries, descanso após a dupla e check-in semanal
 - última foto aprovada mantida como capa oficial fixa
 - visual Premium Obsidian preservado
-- remoção completa de notificações e comandos destinados ao relógio
+- remoção completa de notificações
+- aplicativo Wear OS independente para consultar e marcar as duplas no Galaxy Watch8
 - registro opcional do treino concluído no Health Connect
 - importação do exercício pelo Withings quando autorizada pela usuária
 
@@ -28,7 +29,14 @@ No Withings, abra **Compartilhar > Health Connect** e permita a importação de 
 ## Compilar
 
 ```bash
-gradle :app:assembleDebug
+gradle :app:assembleDebug :wear:assembleDebug
 ```
 
-O APK é criado em `app/build/outputs/apk/debug/app-debug.apk`.
+Os APKs são criados em:
+
+- celular Xiaomi: `app/build/outputs/apk/debug/app-debug.apk`
+- Galaxy Watch8: `wear/build/outputs/apk/debug/wear-debug.apk`
+
+O Watch8 usa Wear OS 6. O instalador do relógio funciona diretamente no pulso, sem
+notificações: ele mostra os quatro treinos, as cinco duplas e o abdominal final, com
+check-in próprio de cada bloco.

@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "TreinoDaLuanaV12"
-include ':app'
+include ':app', ':wear'

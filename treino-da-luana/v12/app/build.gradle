@@ -7,6 +7,15 @@ android {
     namespace 'com.luanarabelo.treinodaluana.v12'
     compileSdk 36
 
+    signingConfigs {
+        xiaomiTest {
+            storeFile rootProject.file('test-only-signing.jks')
+            storePassword 'TreinoLuaV12Teste2026'
+            keyAlias 'treino-lua-xiaomi-test'
+            keyPassword 'TreinoLuaV12Teste2026'
+        }
+    }
+
     defaultConfig {
         applicationId 'com.luanarabelo.treinodaluana.v12'
         minSdk 26
@@ -19,6 +28,7 @@ android {
         debug {
             applicationIdSuffix '.xiaomitest'
             versionNameSuffix '-xiaomi-teste'
+            signingConfig signingConfigs.xiaomiTest
         }
     }
 

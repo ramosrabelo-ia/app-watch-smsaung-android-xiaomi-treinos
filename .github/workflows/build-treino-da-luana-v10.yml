@@ -6,6 +6,11 @@ on:
     paths:
       - 'treino-da-luana/v10/**'
       - '.github/workflows/build-treino-da-luana-v10.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'treino-da-luana/v10/**'
+      - '.github/workflows/build-treino-da-luana-v10.yml'
   workflow_dispatch:
 
 permissions:

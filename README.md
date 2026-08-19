@@ -16,10 +16,6 @@ A apresentação interativa do projeto está em `docs` e foi desenhada como uma 
 
 A experiência começa com a capa oficial e um resumo da semana. A pessoa vê os quatro treinos e escolhe onde continuar.
 
-<p align="center">
-  <img src="treino-da-luana/v12/app/src/main/assets/heroes/hero_official.jpg" width="620" alt="Capa oficial do Treino da Luana V12">
-</p>
-
 ### 2. Escolher o foco do dia
 
 A V12 organiza a semana em quatro treinos: dois de superiores e dois de inferiores.

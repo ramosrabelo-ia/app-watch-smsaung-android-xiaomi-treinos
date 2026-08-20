@@ -14,10 +14,10 @@ android {
     compileSdk 36
     buildToolsVersion '36.0.0'
 
-    // As imagens dos exercícios são compartilhadas com a V12 para evitar duas
-    // cópias idênticas no repositório. Elas continuam empacotadas e offline.
+    // A V13 é autônoma: todas as fotos ficam no próprio módulo e são
+    // empacotadas no APK para funcionar sem internet.
     sourceSets {
-        main.assets.srcDirs = ['../../v12/app/src/main/assets']
+        main.assets.srcDirs = ['src/main/assets']
         main.res.srcDirs = [layout.buildDirectory.dir('generated/iconRes')]
     }
 

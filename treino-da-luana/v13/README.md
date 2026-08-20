@@ -17,7 +17,7 @@ Aplicativo de treino conjugado para Android + Samsung Galaxy Watch8. A V13 mant�
 
 | Celular Android | Execução da dupla |
 |---|---|
-| <img src="docs/screenshots/phone-v13-home.svg" width="330" alt="Tela inicial V13 no celular"> | <img src="../v12/app/src/main/assets/exercises/a_0.jpg" width="330" alt="Foto offline de um exercício do Treino A"> |
+| <img src="docs/screenshots/phone-v13-home.svg" width="330" alt="Tela inicial V13 no celular"> | <img src="app/src/main/assets/exercises/a_0.jpg" width="330" alt="Foto offline de um exercício do Treino A"> |
 
 ![Painel e seleção de treinos no Galaxy Watch8](docs/screenshots/watch-overview.svg)
 
@@ -52,7 +52,7 @@ wear/   aplicativo Wear OS para o Galaxy Watch8
 docs/   telas, instalação, privacidade e jornada
 ```
 
-As 44 fotos são reaproveitadas de `../v12/app/src/main/assets`: continuam dentro do APK e disponíveis offline, mas não são duplicadas no histórico do GitHub. O ícone oficial fica versionado em Base64 para permitir a publicação textual e é reconstruído automaticamente antes da compilação.
+As 44 fotos de exercício e a capa ficam em `app/src/main/assets`, dentro da própria V13, e continuam disponíveis offline. O ícone oficial fica versionado em Base64 e é reconstruído automaticamente antes da compilação.
 
 ## Compilar
 
@@ -74,6 +74,8 @@ O workflow [build-treino-da-luana-v13.yml](../../../.github/workflows/build-trei
 ## Instalar e configurar
 
 Veja o guia [docs/INSTALACAO.md](docs/INSTALACAO.md). A V13 atualiza o aplicativo já instalado no Xiaomi sem apagar cargas ou progresso. No relógio, a primeira instalação da edição sincronizada substitui a edição V12 independente.
+
+Os dois APKs finais ficam na pasta [`../../downloads`](../../downloads). O instalador assistido do Watch8 fica em [`../../installer-watch8`](../../installer-watch8).
 
 ## Privacidade
 

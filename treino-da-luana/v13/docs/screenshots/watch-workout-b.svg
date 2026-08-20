@@ -1,0 +1,181 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="1450" height="930" viewBox="0 0 1450 930">
+      <defs>
+        <linearGradient id="page" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#171b24"/><stop offset=".7" stop-color="#090b10"/>
+        </linearGradient>
+        <radialGradient id="glow"><stop stop-color="#ff7a1a" stop-opacity=".18"/><stop offset="1" stop-color="#ff7a1a" stop-opacity="0"/></radialGradient>
+        <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+          <stop stop-color="#4f555e"/><stop offset=".38" stop-color="#15181d"/><stop offset="1" stop-color="#3b4047"/>
+        </linearGradient>
+      </defs>
+      <rect width="1450" height="930" rx="32" fill="url(#page)"/>
+      <circle cx="80" cy="20" r="240" fill="url(#glow)"/>
+      <text x="42" y="48" fill="#ff7a1a" font-family="DejaVu Sans, Arial" font-size="15" font-weight="800" letter-spacing="2">TREINO B · INFERIOR QUADS</text>
+      <text x="42" y="84" fill="#f4f5f7" font-family="DejaVu Sans, Arial" font-size="29" font-weight="900">Todas as telas do Treino B</text>
+      <text x="1406" y="82" text-anchor="end" fill="#9ca4b2" font-family="DejaVu Sans, Arial" font-size="14">Galaxy Watch8 40 mm · 438 × 438 px</text>
+      
+    <defs><clipPath id="clip-14"><circle cx="199" cy="274" r="146"/></clipPath></defs>
+    <rect x="45" y="124" width="308" height="308" rx="112" fill="url(#metal)" stroke="#6b7078" stroke-width="2"/>
+    <rect x="349" y="232" width="10" height="54" rx="5" fill="#5e646d"/>
+    <rect x="350" y="324" width="8" height="38" rx="4" fill="#4a5058"/>
+    <g clip-path="url(#clip-14)">
+      <circle cx="199" cy="274" r="146" fill="#07090e"/>
+      <g transform="translate(53 56) scale(0.6666666666666666)">
+    <rect x="44" y="44" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="77.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">‹  TODOS OS TREINOS</tspan></text><text x="219" y="119" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="40" font-weight="900"><tspan x="219" dy="0">TREINO B</tspan></text><text x="219" y="155" text-anchor="middle" fill="#ff7a1a" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">INFERIOR QUADS</tspan></text><text x="219" y="186" text-anchor="middle" fill="#9ca4b2" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="800"><tspan x="219" dy="0">0 / 6 CONCLUÍDOS</tspan></text>
+    <rect x="44" y="199" width="350" height="10" rx="5" fill="#1f242e"/>
+    <rect x="44" y="199" width="4" height="10" rx="5" fill="#ff7a1a"/>
+    <rect x="44" y="225" width="350" height="104" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="259.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">DUPLA 1</tspan><tspan x="219" dy="24">1A  Leg press 45°</tspan><tspan x="219" dy="24">1B  Agachamento goblet</tspan></text>
+    <rect x="44" y="341" width="350" height="104" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="375.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">DUPLA 2</tspan><tspan x="219" dy="24">2A  Cadeira extensora</tspan><tspan x="219" dy="24">2B  Afundo reverso</tspan></text>
+    <rect x="44" y="457" width="350" height="104" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="491.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">DUPLA 3</tspan><tspan x="219" dy="24">3A  Cadeira adutora</tspan><tspan x="219" dy="24">3B  Agachamento sumô</tspan></text>
+    <rect x="44" y="573" width="350" height="104" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="607.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">DUPLA 4</tspan><tspan x="219" dy="24">4A  Búlgaro na Smith</tspan><tspan x="219" dy="24">4B  Stiff com halteres</tspan></text>
+    <rect x="44" y="689" width="350" height="104" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="723.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">DUPLA 5</tspan><tspan x="219" dy="24">5A  Panturrilha no leg</tspan><tspan x="219" dy="24">5B  Isométrico com anilha</tspan></text>
+    <rect x="44" y="805" width="350" height="78" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="838.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">ABS FINAL</tspan><tspan x="219" dy="24">Prancha</tspan></text></g>
+      <rect x="311" y="341" width="24" height="42" rx="12" fill="#07090e" fill-opacity=".82" stroke="#ffffff" stroke-opacity=".14"/>
+      <text x="323" y="368" text-anchor="middle" fill="#9ca4b2" font-family="Arial" font-size="16">↕</text>
+    </g>
+    <circle cx="199" cy="274" r="146" fill="none" stroke="#050608" stroke-width="5"/>
+    <text x="199" y="465" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="800"><tspan x="199" dy="0">Treino B</tspan></text>
+    <text x="199" y="510" text-anchor="middle" fill="#9ca4b2" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="500"><tspan x="199" dy="0">Quadríceps e glúteos · visão dos blocos</tspan></text>
+    <defs><clipPath id="clip-15"><circle cx="549" cy="274" r="146"/></clipPath></defs>
+    <rect x="395" y="124" width="308" height="308" rx="112" fill="url(#metal)" stroke="#6b7078" stroke-width="2"/>
+    <rect x="699" y="232" width="10" height="54" rx="5" fill="#5e646d"/>
+    <rect x="700" y="324" width="8" height="38" rx="4" fill="#4a5058"/>
+    <g clip-path="url(#clip-15)">
+      <circle cx="549" cy="274" r="146" fill="#07090e"/>
+      <g transform="translate(403 58) scale(0.6666666666666666)">
+    <rect x="44" y="44" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="77.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">‹  TREINO B</tspan></text><text x="219" y="120" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="39" font-weight="900"><tspan x="219" dy="0">DUPLA 1</tspan></text><text x="219" y="156" text-anchor="middle" fill="#ff7a1a" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="800"><tspan x="219" dy="0">A → B → DESCANSO</tspan></text>
+    <rect x="44" y="181" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="214.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">1A</tspan><tspan x="219" dy="28">Leg press 45°</tspan><tspan x="219" dy="28">3 x 10–12</tspan></text>
+    <rect x="44" y="299" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="332.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">1B</tspan><tspan x="219" dy="28">Agachamento goblet</tspan><tspan x="219" dy="28">3 x 10–12</tspan></text>
+    <rect x="44" y="417" width="350" height="60" rx="30" fill="#ff7a1a" stroke="#ff7a1a" stroke-width="2"/>
+    <text x="219" y="454.14" text-anchor="middle" fill="#07090e" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">✓  CONCLUÍDO</tspan></text>
+    <rect x="44" y="487" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="521.14" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">PRÓXIMA  ›</tspan></text></g>
+      <rect x="661" y="341" width="24" height="42" rx="12" fill="#07090e" fill-opacity=".82" stroke="#ffffff" stroke-opacity=".14"/>
+      <text x="673" y="368" text-anchor="middle" fill="#9ca4b2" font-family="Arial" font-size="16">↕</text>
+    </g>
+    <circle cx="549" cy="274" r="146" fill="none" stroke="#050608" stroke-width="5"/>
+    <text x="549" y="465" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="800"><tspan x="549" dy="0">Dupla 1</tspan></text>
+    <text x="549" y="510" text-anchor="middle" fill="#9ca4b2" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="500"><tspan x="549" dy="0">Leg press 45° + Agachamento goblet</tspan></text>
+    <defs><clipPath id="clip-16"><circle cx="899" cy="274" r="146"/></clipPath></defs>
+    <rect x="745" y="124" width="308" height="308" rx="112" fill="url(#metal)" stroke="#6b7078" stroke-width="2"/>
+    <rect x="1049" y="232" width="10" height="54" rx="5" fill="#5e646d"/>
+    <rect x="1050" y="324" width="8" height="38" rx="4" fill="#4a5058"/>
+    <g clip-path="url(#clip-16)">
+      <circle cx="899" cy="274" r="146" fill="#07090e"/>
+      <g transform="translate(753 58) scale(0.6666666666666666)">
+    <rect x="44" y="44" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="77.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">‹  TREINO B</tspan></text><text x="219" y="120" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="39" font-weight="900"><tspan x="219" dy="0">DUPLA 2</tspan></text><text x="219" y="156" text-anchor="middle" fill="#ff7a1a" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="800"><tspan x="219" dy="0">A → B → DESCANSO</tspan></text>
+    <rect x="44" y="181" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="214.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">2A</tspan><tspan x="219" dy="28">Cadeira extensora</tspan><tspan x="219" dy="28">3 x 10–12</tspan></text>
+    <rect x="44" y="299" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="332.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">2B</tspan><tspan x="219" dy="28">Afundo reverso</tspan><tspan x="219" dy="28">3 x 10 cada</tspan></text>
+    <rect x="44" y="417" width="350" height="60" rx="30" fill="#ff7a1a" stroke="#ff7a1a" stroke-width="2"/>
+    <text x="219" y="454.14" text-anchor="middle" fill="#07090e" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">MARCAR CONCLUÍDO</tspan></text>
+    <rect x="44" y="487" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="521.14" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">PRÓXIMA  ›</tspan></text></g>
+      <rect x="1011" y="341" width="24" height="42" rx="12" fill="#07090e" fill-opacity=".82" stroke="#ffffff" stroke-opacity=".14"/>
+      <text x="1023" y="368" text-anchor="middle" fill="#9ca4b2" font-family="Arial" font-size="16">↕</text>
+    </g>
+    <circle cx="899" cy="274" r="146" fill="none" stroke="#050608" stroke-width="5"/>
+    <text x="899" y="465" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="800"><tspan x="899" dy="0">Dupla 2</tspan></text>
+    <text x="899" y="510" text-anchor="middle" fill="#9ca4b2" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="500"><tspan x="899" dy="0">Cadeira extensora + Afundo reverso</tspan></text>
+    <defs><clipPath id="clip-17"><circle cx="1249" cy="274" r="146"/></clipPath></defs>
+    <rect x="1095" y="124" width="308" height="308" rx="112" fill="url(#metal)" stroke="#6b7078" stroke-width="2"/>
+    <rect x="1399" y="232" width="10" height="54" rx="5" fill="#5e646d"/>
+    <rect x="1400" y="324" width="8" height="38" rx="4" fill="#4a5058"/>
+    <g clip-path="url(#clip-17)">
+      <circle cx="1249" cy="274" r="146" fill="#07090e"/>
+      <g transform="translate(1103 58) scale(0.6666666666666666)">
+    <rect x="44" y="44" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="77.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">‹  TREINO B</tspan></text><text x="219" y="120" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="39" font-weight="900"><tspan x="219" dy="0">DUPLA 3</tspan></text><text x="219" y="156" text-anchor="middle" fill="#ff7a1a" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="800"><tspan x="219" dy="0">A → B → DESCANSO</tspan></text>
+    <rect x="44" y="181" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="214.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">3A</tspan><tspan x="219" dy="28">Cadeira adutora</tspan><tspan x="219" dy="28">3 x 12–15</tspan></text>
+    <rect x="44" y="299" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="332.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">3B</tspan><tspan x="219" dy="28">Agachamento sumô</tspan><tspan x="219" dy="28">3 x 10–12</tspan></text>
+    <rect x="44" y="417" width="350" height="60" rx="30" fill="#ff7a1a" stroke="#ff7a1a" stroke-width="2"/>
+    <text x="219" y="454.14" text-anchor="middle" fill="#07090e" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">MARCAR CONCLUÍDO</tspan></text>
+    <rect x="44" y="487" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="521.14" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">PRÓXIMA  ›</tspan></text></g>
+      <rect x="1361" y="341" width="24" height="42" rx="12" fill="#07090e" fill-opacity=".82" stroke="#ffffff" stroke-opacity=".14"/>
+      <text x="1373" y="368" text-anchor="middle" fill="#9ca4b2" font-family="Arial" font-size="16">↕</text>
+    </g>
+    <circle cx="1249" cy="274" r="146" fill="none" stroke="#050608" stroke-width="5"/>
+    <text x="1249" y="465" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="800"><tspan x="1249" dy="0">Dupla 3</tspan></text>
+    <text x="1249" y="510" text-anchor="middle" fill="#9ca4b2" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="500"><tspan x="1249" dy="0">Cadeira adutora + Agachamento sumô</tspan></text>
+    <defs><clipPath id="clip-18"><circle cx="199" cy="679" r="146"/></clipPath></defs>
+    <rect x="45" y="529" width="308" height="308" rx="112" fill="url(#metal)" stroke="#6b7078" stroke-width="2"/>
+    <rect x="349" y="637" width="10" height="54" rx="5" fill="#5e646d"/>
+    <rect x="350" y="729" width="8" height="38" rx="4" fill="#4a5058"/>
+    <g clip-path="url(#clip-18)">
+      <circle cx="199" cy="679" r="146" fill="#07090e"/>
+      <g transform="translate(53 463) scale(0.6666666666666666)">
+    <rect x="44" y="44" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="77.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">‹  TREINO B</tspan></text><text x="219" y="120" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="39" font-weight="900"><tspan x="219" dy="0">DUPLA 4</tspan></text><text x="219" y="156" text-anchor="middle" fill="#ff7a1a" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="800"><tspan x="219" dy="0">A → B → DESCANSO</tspan></text>
+    <rect x="44" y="181" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="214.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">4A</tspan><tspan x="219" dy="28">Búlgaro na Smith</tspan><tspan x="219" dy="28">3 x 8–10 cada</tspan></text>
+    <rect x="44" y="299" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="332.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">4B</tspan><tspan x="219" dy="28">Stiff com halteres</tspan><tspan x="219" dy="28">3 x 8–10</tspan></text>
+    <rect x="44" y="417" width="350" height="60" rx="30" fill="#ff7a1a" stroke="#ff7a1a" stroke-width="2"/>
+    <text x="219" y="454.14" text-anchor="middle" fill="#07090e" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">MARCAR CONCLUÍDO</tspan></text>
+    <rect x="44" y="487" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="521.14" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">PRÓXIMA  ›</tspan></text></g>
+      <rect x="311" y="746" width="24" height="42" rx="12" fill="#07090e" fill-opacity=".82" stroke="#ffffff" stroke-opacity=".14"/>
+      <text x="323" y="773" text-anchor="middle" fill="#9ca4b2" font-family="Arial" font-size="16">↕</text>
+    </g>
+    <circle cx="199" cy="679" r="146" fill="none" stroke="#050608" stroke-width="5"/>
+    <text x="199" y="870" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="800"><tspan x="199" dy="0">Dupla 4</tspan></text>
+    <text x="199" y="915" text-anchor="middle" fill="#9ca4b2" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="500"><tspan x="199" dy="0">Búlgaro na Smith + Stiff com halteres</tspan></text>
+    <defs><clipPath id="clip-19"><circle cx="549" cy="679" r="146"/></clipPath></defs>
+    <rect x="395" y="529" width="308" height="308" rx="112" fill="url(#metal)" stroke="#6b7078" stroke-width="2"/>
+    <rect x="699" y="637" width="10" height="54" rx="5" fill="#5e646d"/>
+    <rect x="700" y="729" width="8" height="38" rx="4" fill="#4a5058"/>
+    <g clip-path="url(#clip-19)">
+      <circle cx="549" cy="679" r="146" fill="#07090e"/>
+      <g transform="translate(403 463) scale(0.6666666666666666)">
+    <rect x="44" y="44" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="77.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">‹  TREINO B</tspan></text><text x="219" y="120" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="39" font-weight="900"><tspan x="219" dy="0">DUPLA 5</tspan></text><text x="219" y="156" text-anchor="middle" fill="#ff7a1a" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="800"><tspan x="219" dy="0">A → B → DESCANSO</tspan></text>
+    <rect x="44" y="181" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="214.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">5A</tspan><tspan x="219" dy="28">Panturrilha no leg</tspan><tspan x="219" dy="28">2 x 12–15</tspan></text>
+    <rect x="44" y="299" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="332.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">5B</tspan><tspan x="219" dy="28">Isométrico com anilha</tspan><tspan x="219" dy="28">2 x 30–40s</tspan></text>
+    <rect x="44" y="417" width="350" height="60" rx="30" fill="#ff7a1a" stroke="#ff7a1a" stroke-width="2"/>
+    <text x="219" y="454.14" text-anchor="middle" fill="#07090e" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">MARCAR CONCLUÍDO</tspan></text>
+    <rect x="44" y="487" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="521.14" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">PRÓXIMA  ›</tspan></text></g>
+      <rect x="661" y="746" width="24" height="42" rx="12" fill="#07090e" fill-opacity=".82" stroke="#ffffff" stroke-opacity=".14"/>
+      <text x="673" y="773" text-anchor="middle" fill="#9ca4b2" font-family="Arial" font-size="16">↕</text>
+    </g>
+    <circle cx="549" cy="679" r="146" fill="none" stroke="#050608" stroke-width="5"/>
+    <text x="549" y="870" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="800"><tspan x="549" dy="0">Dupla 5</tspan></text>
+    <text x="549" y="915" text-anchor="middle" fill="#9ca4b2" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="500"><tspan x="549" dy="0">Panturrilha no leg + Isométrico com anilha</tspan></text>
+    <defs><clipPath id="clip-20"><circle cx="899" cy="679" r="146"/></clipPath></defs>
+    <rect x="745" y="529" width="308" height="308" rx="112" fill="url(#metal)" stroke="#6b7078" stroke-width="2"/>
+    <rect x="1049" y="637" width="10" height="54" rx="5" fill="#5e646d"/>
+    <rect x="1050" y="729" width="8" height="38" rx="4" fill="#4a5058"/>
+    <g clip-path="url(#clip-20)">
+      <circle cx="899" cy="679" r="146" fill="#07090e"/>
+      <g transform="translate(753 491) scale(0.6666666666666666)">
+    <rect x="44" y="44" width="350" height="54" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="77.8" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="800"><tspan x="219" dy="0">‹  TREINO B</tspan></text><text x="219" y="120" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="39" font-weight="900"><tspan x="219" dy="0">ABS FINAL</tspan></text><text x="219" y="156" text-anchor="middle" fill="#ff7a1a" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="800"><tspan x="219" dy="0">FINALIZADOR</tspan></text>
+    <rect x="44" y="181" width="350" height="107" rx="30" fill="#13171f" stroke="#353d4b" stroke-width="2"/>
+    <text x="219" y="214.32" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="800"><tspan x="219" dy="0">ABS</tspan><tspan x="219" dy="28">Prancha</tspan><tspan x="219" dy="28">3 x 30–45s</tspan></text>
+    <rect x="44" y="299" width="350" height="60" rx="30" fill="#ff7a1a" stroke="#ff7a1a" stroke-width="2"/>
+    <text x="219" y="336.14" text-anchor="middle" fill="#07090e" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="800"><tspan x="219" dy="0">MARCAR CONCLUÍDO</tspan></text></g>
+      <rect x="1011" y="746" width="24" height="42" rx="12" fill="#07090e" fill-opacity=".82" stroke="#ffffff" stroke-opacity=".14"/>
+      <text x="1023" y="773" text-anchor="middle" fill="#9ca4b2" font-family="Arial" font-size="16">↕</text>
+    </g>
+    <circle cx="899" cy="679" r="146" fill="none" stroke="#050608" stroke-width="5"/>
+    <text x="899" y="870" text-anchor="middle" fill="#f4f5f7" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="800"><tspan x="899" dy="0">Abdominal final</tspan></text>
+    <text x="899" y="915" text-anchor="middle" fill="#9ca4b2" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="500"><tspan x="899" dy="0">Prancha</tspan></text>
+    </svg>

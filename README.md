@@ -1,109 +1,151 @@
-# Simbora
+# Simbora — treino no Android e no Galaxy Watch
 
-Aplicativo de treino pessoal que evoluiu de um APK simples para uma experiência integrada entre Android, Galaxy Watch8 e Health Connect.
+O Simbora é uma base completa de aplicativo de treino para **celular Android/Xiaomi** e **Samsung Galaxy Watch com Wear OS**. A V13 organiza quatro treinos conjugados, guarda fotos e cargas no celular, permite marcar os blocos no relógio e sincroniza o progresso entre os dois aparelhos.
 
-> A proposta é simples: abrir o treino, saber exatamente o que fazer, registrar o que foi concluído e sair da academia sem depender de planilha, papel ou memória.
+O objetivo deste repositório é permitir que outra pessoa adapte a experiência ao próprio treino, aparelho e ecossistema sem precisar começar do zero.
 
-## Simbora Computer
+> Esta branch mantém somente a versão final V13. As versões anteriores continuam recuperáveis pelo histórico do Git.
 
-A apresentação interativa do projeto está em `docs` e foi desenhada como uma pequena central de produto, no estilo “computer”, para navegar pela ideia, treinos, experiência, integrações, relógio e evolução das versões.
+## Baixar as versões finais
 
-**Página:** https://ramosrabelo-ia.github.io/treininhos/
+| Plataforma | Arquivo | O que entrega |
+|---|---|---|
+| Android / Xiaomi | [`Treino-da-Luana-v13-Xiaomi.apk`](downloads/Treino-da-Luana-v13-Xiaomi.apk) | Interface completa, fotos offline, cargas, séries, descanso, progresso e Health Connect |
+| Galaxy Watch8 / Wear OS | [`Treino-da-Luana-v13-Galaxy-Watch8.apk`](downloads/Treino-da-Luana-v13-Galaxy-Watch8.apk) | Seleção dos quatro treinos, blocos A–D e checks sincronizados com o celular |
 
-## Jornada da usuária
-
-### 1. Abrir o app e entrar no treino
-
-A experiência começa com a capa oficial e um resumo da semana. A pessoa vê os quatro treinos e escolhe onde continuar.
-
-### 2. Escolher o foco do dia
-
-A V12 organiza a semana em quatro treinos: dois de superiores e dois de inferiores.
-
-<table>
-  <tr>
-    <td align="center"><strong>A · Superior Push</strong><br><sub>Peito, ombro e tríceps</sub><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/a_0.jpg" width="210" alt="Treino A"></td>
-    <td align="center"><strong>B · Inferior Quads</strong><br><sub>Quadríceps e glúteos</sub><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/b_0.jpg" width="210" alt="Treino B"></td>
-    <td align="center"><strong>C · Superior Pull</strong><br><sub>Costas, bíceps e posterior de ombro</sub><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/c_0.jpg" width="210" alt="Treino C"></td>
-    <td align="center"><strong>D · Inferior Posterior</strong><br><sub>Posterior de coxa e glúteos</sub><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/d_0.jpg" width="210" alt="Treino D"></td>
-  </tr>
-</table>
-
-### 3. Executar as duplas conjugadas
-
-Cada treino possui cinco duplas conjugadas e um finalizador. A lógica é fazer o exercício A, seguir para o B e descansar somente depois dos dois.
-
-<table>
-  <tr>
-    <td align="center"><strong>1A · Supino na máquina</strong><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/a_0.jpg" width="330" alt="Supino na máquina"></td>
-    <td align="center"><strong>1B · Tríceps francês com halter</strong><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/a_1.jpg" width="330" alt="Tríceps francês com halter"></td>
-  </tr>
-</table>
-
-O app mostra ordem, séries, repetições, foto do movimento, dica de execução e controle do descanso. As imagens ficam incorporadas ao APK para funcionar mesmo sem internet.
-
-### 4. Fechar o treino
-
-Depois das cinco duplas, cada sessão termina com um finalizador abdominal. O progresso fica registrado por bloco e por treino para compor o resumo semanal.
-
-<p align="center">
-  <img src="treino-da-luana/v12/app/src/main/assets/exercises/a_10.jpg" width="420" alt="Finalizador abdominal do treino A">
-</p>
-
-### 5. Registrar o treino concluído
-
-Ao concluir a sessão, o Simbora pode gravar o treino de força no Health Connect. A integração é opcional e utiliza apenas permissão de escrita de exercício. O aplicativo não lê dados de saúde e não envia informações para servidor próprio.
+SHA-256 dos APKs publicados:
 
 ```text
-Simbora
-   ↓
-Treino concluído
-   ↓
-Health Connect
-   ↓
-Withings, quando a importação estiver autorizada
+e92818d92671df192763c108bfa3110c2ed9606aa57b735456a253201802b702  Treino-da-Luana-v13-Xiaomi.apk
+0d24fb064da13b2f78385904dd7e2ec46834abe71eedc65934ba6609d40e3503  Treino-da-Luana-v13-Galaxy-Watch8.apk
 ```
 
-### 6. Continuar no Galaxy Watch8
+Para instalar o relógio pelo Windows, consulte [`installer-watch8/LEIA-ME.md`](installer-watch8/LEIA-ME.md). O pacote distribuído separadamente inclui também o Google Platform-Tools oficial; no repositório, o script baixa o ADB diretamente do Google quando necessário.
 
-A V12 inclui um aplicativo Wear OS independente. No relógio é possível consultar os quatro treinos, navegar pelas cinco duplas e pelo finalizador e marcar os blocos concluídos diretamente no pulso.
+## O que foi feito na V13
+
+### Aplicativo do celular
+
+- visual Premium Obsidian em preto, laranja e ciano;
+- quatro treinos: dois de superiores e dois de inferiores;
+- cinco duplas conjugadas e um abdominal final por treino;
+- 44 fotos de exercícios e uma capa, todas incorporadas ao APK;
+- registro de séries, descanso e carga por exercício;
+- carga persistente, editável para acompanhar a progressão;
+- botão e gesto de voltar corrigidos, com margem segura para a barra do sistema;
+- painel semanal com 24 blocos e check-in de cada treino;
+- remoção completa da interface da Withings;
+- registro opcional de treino de força no Samsung Health por meio do Health Connect;
+- sincronização bidirecional dos checks com o Galaxy Watch8.
+
+### Aplicativo do relógio
+
+- interface circular própria para Wear OS;
+- seleção rápida dos treinos A, B, C e D;
+- visão das seis etapas de cada treino;
+- nome dos dois exercícios de cada dupla e do abdominal final;
+- marcar e desmarcar blocos diretamente no pulso;
+- progresso local mesmo quando o celular está temporariamente distante;
+- sincronização posterior pelo Wear OS Data Layer quando os aparelhos voltam a se comunicar;
+- sem fotos e sem cargas no relógio, para manter a navegação leve e legível.
+
+## Como a dupla funciona
 
 ```text
-Celular Xiaomi                   Galaxy Watch8
-┌──────────────────┐            ┌──────────────┐
-│ treino completo  │            │ treino A B C D│
-│ fotos offline    │            │ dupla atual   │
-│ progresso semanal│            │ check-in      │
-│ Health Connect   │            │ finalizador   │
-└──────────────────┘            └──────────────┘
+Celular Android / Xiaomi                 Galaxy Watch8
+┌──────────────────────────┐             ┌────────────────────────┐
+│ fotos, cargas e séries   │             │ treino A, B, C ou D    │
+│ 24 blocos semanais       │◄───────────►│ check dos seis blocos  │
+│ Health Connect opcional  │ Wear Data   │ navegação no pulso     │
+└──────────────────────────┘   Layer     └────────────────────────┘
 ```
 
-## O produto hoje
+Cada bloco usa um caminho estável no Data Layer e um horário de alteração. Quando celular e relógio discordam, prevalece a mudança mais recente. As cargas continuam apenas no celular; somente os checks dos 24 blocos são sincronizados.
 
-A V12 reúne **4 treinos**, **24 blocos**, **44 exercícios com fotos offline**, progresso semanal, cronômetro de descanso, registro opcional no Health Connect e uma experiência independente para Wear OS 6 no Galaxy Watch8.
+O Samsung Health não é acessado por uma API proprietária. O celular grava uma sessão de treino de força no **Health Connect**, se a pessoa autorizar, e o Samsung Health pode importar esse registro conforme sua configuração.
 
-## Evolução
+## Telas
 
-`V5–V7` estrutura funcional e estabilidade
+| Celular Android | Painel do Galaxy Watch8 |
+|---|---|
+| <img src="treino-da-luana/v13/docs/screenshots/phone-v13-home.svg" width="340" alt="Tela inicial da V13 no Android"> | <img src="treino-da-luana/v13/docs/screenshots/watch-overview.svg" width="340" alt="Painel de seleção no Galaxy Watch8"> |
 
-`V8–V9` entrada das imagens dos exercícios
+Treinos no relógio: [A](treino-da-luana/v13/docs/screenshots/watch-workout-a.svg) · [B](treino-da-luana/v13/docs/screenshots/watch-workout-b.svg) · [C](treino-da-luana/v13/docs/screenshots/watch-workout-c.svg) · [D](treino-da-luana/v13/docs/screenshots/watch-workout-d.svg)
 
-`V10` visual Premium Obsidian e progresso semanal
+## Estrutura final
 
-`V11` experimentos de conectividade
+```text
+.
+├── downloads/
+│   ├── Treino-da-Luana-v13-Xiaomi.apk
+│   └── Treino-da-Luana-v13-Galaxy-Watch8.apk
+├── installer-watch8/
+│   ├── INSTALAR-NO-WATCH8.bat
+│   ├── instalar-watch8.ps1
+│   └── LEIA-ME.md
+├── treino-da-luana/v13/
+│   ├── app/                  aplicativo Android
+│   │   └── src/main/assets/ fotos offline
+│   ├── wear/                 aplicativo Wear OS
+│   ├── docs/                 instalação, privacidade e telas
+│   └── settings.gradle       projeto com os dois módulos
+└── .github/workflows/
+    └── build-treino-da-luana-v13.yml
+```
 
-`V12` treinos conjugados, 44 fotos offline, Health Connect e Galaxy Watch8
+## Tecnologia
 
-## Estrutura principal
+- Java 17 para as interfaces Android e Wear OS e para a sincronização;
+- Kotlin para a ponte do Health Connect;
+- Android SDK 36, target SDK 35 e Gradle 8.11.1;
+- Google Play services Wearable `20.0.1`;
+- AndroidX Health Connect `1.1.0`;
+- `SharedPreferences` para progresso e cargas locais;
+- Android Views construídas diretamente em código;
+- GitHub Actions para compilar e validar os dois módulos.
 
-`treino-da-luana/v12/app` contém o aplicativo Android.
+Não há backend, login obrigatório ou banco de dados externo.
 
-`treino-da-luana/v12/wear` contém o aplicativo Wear OS.
+## Use como base para outro treino ou aparelho
 
-`docs` contém o Simbora Computer para GitHub Pages.
+Os principais pontos de adaptação são:
 
-`.github/workflows/build-treino-da-luana-v12.yml` compila os APKs do celular e do relógio.
+| Necessidade | Onde alterar |
+|---|---|
+| nomes, séries, repetições, dicas e divisão dos treinos | `app/src/main/java/.../WorkoutData.java` e as tabelas do módulo `wear` |
+| fotos dos exercícios e capa | `app/src/main/assets/` |
+| cores, cartões, tipografia e navegação do celular | `app/src/main/java/.../MainActivity.java` |
+| layout circular e conteúdo do relógio | `wear/src/main/java/.../WatchMainActivity.java` |
+| ícone | `app/src/main/icon/` e `wear/src/main/res/` |
+| sincronização | `PhoneProgressSync.java` e `WatchProgressSync.java` |
+| integração de saúde | `HealthConnectBridge.kt` |
+| identificador, SDK e assinatura | `app/build.gradle`, `wear/build.gradle` e `signing.properties.example` |
 
-## Privacidade
+Para outro celular Android, normalmente basta ajustar identidade visual, dados do treino, permissões e testes de tela. Para outro relógio **Wear OS**, o módulo `wear` é a base. Relógios que não usam Wear OS exigem um módulo nativo para o sistema do fabricante, mas ainda podem reaproveitar a estrutura de treinos, estados, telas e protocolo de sincronização como referência.
 
-Este é um projeto pessoal. A integração com Health Connect grava apenas uma sessão de exercício concluída quando autorizada. Não existe backend próprio para coleta de dados de saúde.
+## Compilar
+
+Requisitos: JDK 17 e Gradle 8.11.1.
+
+```bash
+cd treino-da-luana/v13
+gradle :app:assembleDebug :wear:assembleDebug
+```
+
+Saídas:
+
+```text
+app/build/outputs/apk/debug/app-debug.apk
+wear/build/outputs/apk/debug/wear-debug.apk
+```
+
+Para a sincronização funcionar, os dois APKs precisam usar o mesmo `applicationId` e ser assinados com a mesma chave. Nunca publique sua chave privada, `.jks` ou `signing.properties`. O workflow do GitHub gera um par de teste para instalação nova; uma atualização de um app já instalado precisa usar a assinatura original.
+
+## Documentação
+
+- [Visão técnica da V13](treino-da-luana/v13/README.md)
+- [Instalação no celular e no relógio](treino-da-luana/v13/docs/INSTALACAO.md)
+- [Jornada de desenvolvimento](treino-da-luana/v13/docs/JORNADA.md)
+- [Privacidade](treino-da-luana/v13/docs/PRIVACIDADE.md)
+
+Este projeto organiza treinos; ele não substitui orientação de profissional de educação física ou atendimento médico.

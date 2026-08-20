@@ -52,7 +52,7 @@ wear/   aplicativo Wear OS para o Galaxy Watch8
 docs/   telas, instalação, privacidade e jornada
 ```
 
-As 44 fotos são reaproveitadas de `../v12/app/src/main/assets`: continuam dentro do APK e disponíveis offline, mas não são duplicadas no histórico do GitHub.
+As 44 fotos são reaproveitadas de `../v12/app/src/main/assets`: continuam dentro do APK e disponíveis offline, mas não são duplicadas no histórico do GitHub. O ícone oficial fica versionado em Base64 para permitir a publicação textual e é reconstruído automaticamente antes da compilação.
 
 ## Compilar
 

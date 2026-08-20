@@ -1,0 +1,16 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+design/
+# A V13 reutiliza as fotos já versionadas na V12.
+app/src/main/assets/
+local.properties
+signing.properties
+*.jks
+*.keystore
+*.apk
+*.aab
+*.zip
+captures/
+*.iml

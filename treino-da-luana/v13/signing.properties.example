@@ -1,0 +1,7 @@
+# Copie para signing.properties e use a mesma chave nos módulos app e wear.
+# O arquivo real e a chave nunca devem ser enviados ao GitHub.
+storeFile=your-local-signing-key.jks
+storePassword=change-me
+keyAlias=your-key-alias
+keyPassword=change-me
+

@@ -14,11 +14,11 @@ android {
     compileSdk 36
     buildToolsVersion '36.0.0'
 
-    // As imagens são compartilhadas com a V12 para evitar duas cópias idênticas
-    // no repositório. Elas continuam empacotadas no APK e funcionam offline.
+    // As imagens dos exercícios são compartilhadas com a V12 para evitar duas
+    // cópias idênticas no repositório. Elas continuam empacotadas e offline.
     sourceSets {
         main.assets.srcDirs = ['../../v12/app/src/main/assets']
-        main.res.srcDirs = ['../../v12/app/src/main/res']
+        main.res.srcDirs = [layout.buildDirectory.dir('generated/iconRes')]
     }
 
     signingConfigs {
@@ -58,6 +58,26 @@ android {
     kotlinOptions {
         jvmTarget = '17'
     }
+}
+
+def encodedLauncherIcon = file('src/main/icon/ic_launcher_photo.webp.b64')
+def generatedLauncherIcon = layout.buildDirectory.file(
+        'generated/iconRes/drawable-nodpi/ic_launcher_photo.webp'
+)
+
+tasks.register('generateLauncherIcon') {
+    inputs.file(encodedLauncherIcon)
+    outputs.file(generatedLauncherIcon)
+    doLast {
+        File output = generatedLauncherIcon.get().asFile
+        output.parentFile.mkdirs()
+        String encoded = encodedLauncherIcon.getText('UTF-8').replaceAll('\\s', '')
+        output.bytes = Base64.decoder.decode(encoded)
+    }
+}
+
+tasks.named('preBuild').configure {
+    dependsOn tasks.named('generateLauncherIcon')
 }
 
 dependencies {

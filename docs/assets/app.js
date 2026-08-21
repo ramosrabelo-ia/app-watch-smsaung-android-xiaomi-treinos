@@ -91,13 +91,13 @@ $('#demo-complete').addEventListener('click',()=>{
 });
 
 const answers={
-  funciona:'A V14.1 organiza a semana em quatro treinos. Cada treino tem cinco duplas conjugadas e um finalizador abdominal. Você faz A, faz B, descansa depois da dupla e marca o bloco. O aplicativo mantém o progresso semanal e permite continuar de onde parou.',
+  funciona:'A V15 organiza a semana em quatro treinos. No relógio você pode abrir qualquer dupla, marcar séries individualmente e retomar pelo primeiro exercício incompleto. O progresso parcial fica salvo e sincronizado.',
   offline:'As 44 fotos dos exercícios ficam incorporadas ao APK. Por isso a consulta da execução não depende de internet durante o treino.',
-  health:'Quando o treino termina, o aplicativo pode gravar uma sessão de treino de força no Health Connect. A V14.1 solicita apenas permissão de escrita de exercício. Ela não lê dados de saúde.',
+  health:'Quando o treino termina, o aplicativo pode gravar uma sessão de treino de força no Health Connect. A V15 solicita apenas permissão de escrita de exercício. Ela não lê dados de saúde e continua funcionando sem autorização.',
   watch:'O Galaxy Watch8 recebe um aplicativo Wear OS 6 próprio. Ele mostra fotos, repetições, carga sincronizada, progresso circular e resumo final. Checks são sincronizados nos dois sentidos; cargas seguem do Xiaomi para o relógio.',
   privacy:'O aplicativo não envia dados para servidor próprio. A integração de saúde é opcional e limitada ao registro do exercício concluído no Health Connect.',
   treino:'Existem quatro divisões: A Superior Push, B Inferior Quads, C Superior Pull e D Inferior Posterior. Todas usam a mesma estrutura de cinco duplas mais um finalizador.',
-  versao:'A versão atual é a V14.1. Ela mantém o layout do Xiaomi, redesenha o Watch8, inclui 44 fotos no relógio, sincroniza cargas e checks e mostra um resumo final de 10 segundos.'
+  versao:'A versão atual é a V15. Ela mantém o layout do Xiaomi, redesenha o Watch8 para a tela circular, permite duplas livres, sincroniza séries e cargas e mostra um resumo final de 10 segundos.'
 };
 
 function inferAnswer(text){
@@ -107,7 +107,7 @@ function inferAnswer(text){
   if(q.includes('offline')||q.includes('internet')||q.includes('foto'))return answers.offline;
   if(q.includes('privacidade')||q.includes('dados'))return answers.privacy;
   if(q.includes('treino')||q.includes('a b c d'))return answers.treino;
-  if(q.includes('v14')||q.includes('v12')||q.includes('versão')||q.includes('versao'))return answers.versao;
+  if(q.includes('v15')||q.includes('v14')||q.includes('v12')||q.includes('versão')||q.includes('versao'))return answers.versao;
   return answers.funciona;
 }
 

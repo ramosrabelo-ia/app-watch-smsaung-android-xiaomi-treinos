@@ -8,7 +8,17 @@ Aplicativo de treino pessoal que evoluiu de um APK simples para uma experiência
 
 A apresentação interativa do projeto está em `docs` e foi desenhada como uma pequena central de produto, no estilo “computer”, para navegar pela ideia, treinos, experiência, integrações, relógio e evolução das versões.
 
-**Página:** https://ramosrabelo-ia.github.io/treininhos/
+**Página:** https://ramosrabelo-ia.github.io/app-watch-smsaung-android-xiaomi-treinos/
+
+## Interfaces V14.1
+
+<p align="center">
+  <img src="docs/images/watch-v14-overview.png" width="100%" alt="Nova interface V14.1 do Galaxy Watch8">
+</p>
+
+<p align="center">
+  <img src="docs/images/phone-v14-home.png" width="390" alt="Interface V14.1 do Xiaomi">
+</p>
 
 ## Jornada da usuária
 
@@ -18,14 +28,14 @@ A experiência começa com a capa oficial e um resumo da semana. A pessoa vê os
 
 ### 2. Escolher o foco do dia
 
-A V12 organiza a semana em quatro treinos: dois de superiores e dois de inferiores.
+A V14.1 organiza a semana em quatro treinos: dois de superiores e dois de inferiores.
 
 <table>
   <tr>
-    <td align="center"><strong>A · Superior Push</strong><br><sub>Peito, ombro e tríceps</sub><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/a_0.jpg" width="210" alt="Treino A"></td>
-    <td align="center"><strong>B · Inferior Quads</strong><br><sub>Quadríceps e glúteos</sub><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/b_0.jpg" width="210" alt="Treino B"></td>
-    <td align="center"><strong>C · Superior Pull</strong><br><sub>Costas, bíceps e posterior de ombro</sub><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/c_0.jpg" width="210" alt="Treino C"></td>
-    <td align="center"><strong>D · Inferior Posterior</strong><br><sub>Posterior de coxa e glúteos</sub><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/d_0.jpg" width="210" alt="Treino D"></td>
+    <td align="center"><strong>A · Superior Push</strong><br><sub>Peito, ombro e tríceps</sub><br><br><img src="treino-da-luana/v14/app/src/main/assets/exercises/a_0.jpg" width="210" alt="Treino A"></td>
+    <td align="center"><strong>B · Inferior Quads</strong><br><sub>Quadríceps e glúteos</sub><br><br><img src="treino-da-luana/v14/app/src/main/assets/exercises/b_0.jpg" width="210" alt="Treino B"></td>
+    <td align="center"><strong>C · Superior Pull</strong><br><sub>Costas, bíceps e posterior de ombro</sub><br><br><img src="treino-da-luana/v14/app/src/main/assets/exercises/c_0.jpg" width="210" alt="Treino C"></td>
+    <td align="center"><strong>D · Inferior Posterior</strong><br><sub>Posterior de coxa e glúteos</sub><br><br><img src="treino-da-luana/v14/app/src/main/assets/exercises/d_0.jpg" width="210" alt="Treino D"></td>
   </tr>
 </table>
 
@@ -35,8 +45,8 @@ Cada treino possui cinco duplas conjugadas e um finalizador. A lógica é fazer 
 
 <table>
   <tr>
-    <td align="center"><strong>1A · Supino na máquina</strong><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/a_0.jpg" width="330" alt="Supino na máquina"></td>
-    <td align="center"><strong>1B · Tríceps francês com halter</strong><br><br><img src="treino-da-luana/v12/app/src/main/assets/exercises/a_1.jpg" width="330" alt="Tríceps francês com halter"></td>
+    <td align="center"><strong>1A · Supino na máquina</strong><br><br><img src="treino-da-luana/v14/app/src/main/assets/exercises/a_0.jpg" width="330" alt="Supino na máquina"></td>
+    <td align="center"><strong>1B · Tríceps francês com halter</strong><br><br><img src="treino-da-luana/v14/app/src/main/assets/exercises/a_1.jpg" width="330" alt="Tríceps francês com halter"></td>
   </tr>
 </table>
 
@@ -47,7 +57,7 @@ O app mostra ordem, séries, repetições, foto do movimento, dica de execução
 Depois das cinco duplas, cada sessão termina com um finalizador abdominal. O progresso fica registrado por bloco e por treino para compor o resumo semanal.
 
 <p align="center">
-  <img src="treino-da-luana/v12/app/src/main/assets/exercises/a_10.jpg" width="420" alt="Finalizador abdominal do treino A">
+  <img src="treino-da-luana/v14/app/src/main/assets/exercises/a_10.jpg" width="420" alt="Finalizador abdominal do treino A">
 </p>
 
 ### 5. Registrar o treino concluído
@@ -61,12 +71,12 @@ Treino concluído
    ↓
 Health Connect
    ↓
-Withings, quando a importação estiver autorizada
+Samsung Health, quando a integração estiver autorizada
 ```
 
 ### 6. Continuar no Galaxy Watch8
 
-A V12 inclui um aplicativo Wear OS independente. No relógio é possível consultar os quatro treinos, navegar pelas cinco duplas e pelo finalizador e marcar os blocos concluídos diretamente no pulso.
+A V14.1 inclui um aplicativo Wear OS independente. No relógio é possível consultar os quatro treinos, ver a foto original, repetições e carga, concluir os exercícios e receber o resumo final diretamente no pulso. Checks são sincronizados nos dois sentidos; cargas definidas no Xiaomi aparecem automaticamente ao abrir o treino.
 
 ```text
 Celular Xiaomi                   Galaxy Watch8
@@ -80,7 +90,7 @@ Celular Xiaomi                   Galaxy Watch8
 
 ## O produto hoje
 
-A V12 reúne **4 treinos**, **24 blocos**, **44 exercícios com fotos offline**, progresso semanal, cronômetro de descanso, registro opcional no Health Connect e uma experiência independente para Wear OS 6 no Galaxy Watch8.
+A V14.1 reúne **4 treinos**, **24 blocos**, **44 exercícios com fotos offline nos dois aparelhos**, carga sincronizada, progresso semanal, cronômetro de descanso, resumo final e registro opcional no Health Connect.
 
 ## Evolução
 
@@ -94,15 +104,19 @@ A V12 reúne **4 treinos**, **24 blocos**, **44 exercícios com fotos offline**,
 
 `V12` treinos conjugados, 44 fotos offline, Health Connect e Galaxy Watch8
 
+`V13` sincronização de checks entre Xiaomi e Watch8
+
+`V14.1` nova interface do Watch8, fotos, cargas sincronizadas, resumo final e correção de compatibilidade no Xiaomi
+
 ## Estrutura principal
 
-`treino-da-luana/v12/app` contém o aplicativo Android.
+`treino-da-luana/v14/app` contém o aplicativo Android.
 
-`treino-da-luana/v12/wear` contém o aplicativo Wear OS.
+`treino-da-luana/v14/wear` contém o aplicativo Wear OS.
 
 `docs` contém o Simbora Computer para GitHub Pages.
 
-`.github/workflows/build-treino-da-luana-v12.yml` compila os APKs do celular e do relógio.
+`.github/workflows/build-treino-da-luana-v14.yml` valida os APKs do celular e do relógio.
 
 ## Privacidade
 

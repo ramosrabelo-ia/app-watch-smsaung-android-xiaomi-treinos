@@ -91,13 +91,13 @@ $('#demo-complete').addEventListener('click',()=>{
 });
 
 const answers={
-  funciona:'A V12 organiza a semana em quatro treinos. Cada treino tem cinco duplas conjugadas e um finalizador abdominal. Você faz A, faz B, descansa depois da dupla e marca o bloco. O aplicativo mantém o progresso semanal e permite continuar de onde parou.',
+  funciona:'A V14.1 organiza a semana em quatro treinos. Cada treino tem cinco duplas conjugadas e um finalizador abdominal. Você faz A, faz B, descansa depois da dupla e marca o bloco. O aplicativo mantém o progresso semanal e permite continuar de onde parou.',
   offline:'As 44 fotos dos exercícios ficam incorporadas ao APK. Por isso a consulta da execução não depende de internet durante o treino.',
-  health:'Quando o treino termina, o aplicativo pode gravar uma sessão de treino de força no Health Connect. A V12 solicita apenas permissão de escrita de exercício. Ela não lê dados de saúde.',
-  watch:'O Galaxy Watch8 recebe um aplicativo Wear OS 6 próprio. Ele mostra os quatro treinos, as cinco duplas e o finalizador e permite marcar os blocos diretamente no pulso, sem depender de notificações do celular.',
+  health:'Quando o treino termina, o aplicativo pode gravar uma sessão de treino de força no Health Connect. A V14.1 solicita apenas permissão de escrita de exercício. Ela não lê dados de saúde.',
+  watch:'O Galaxy Watch8 recebe um aplicativo Wear OS 6 próprio. Ele mostra fotos, repetições, carga sincronizada, progresso circular e resumo final. Checks são sincronizados nos dois sentidos; cargas seguem do Xiaomi para o relógio.',
   privacy:'O aplicativo não envia dados para servidor próprio. A integração de saúde é opcional e limitada ao registro do exercício concluído no Health Connect.',
   treino:'Existem quatro divisões: A Superior Push, B Inferior Quads, C Superior Pull e D Inferior Posterior. Todas usam a mesma estrutura de cinco duplas mais um finalizador.',
-  versao:'A versão atual é a V12. Ela adiciona treinos conjugados, 44 fotos offline, Health Connect e um aplicativo Wear OS independente para o Galaxy Watch8, além de remover notificações.'
+  versao:'A versão atual é a V14.1. Ela mantém o layout do Xiaomi, redesenha o Watch8, inclui 44 fotos no relógio, sincroniza cargas e checks e mostra um resumo final de 10 segundos.'
 };
 
 function inferAnswer(text){
@@ -107,7 +107,7 @@ function inferAnswer(text){
   if(q.includes('offline')||q.includes('internet')||q.includes('foto'))return answers.offline;
   if(q.includes('privacidade')||q.includes('dados'))return answers.privacy;
   if(q.includes('treino')||q.includes('a b c d'))return answers.treino;
-  if(q.includes('v12')||q.includes('versão')||q.includes('versao'))return answers.versao;
+  if(q.includes('v14')||q.includes('v12')||q.includes('versão')||q.includes('versao'))return answers.versao;
   return answers.funciona;
 }
 

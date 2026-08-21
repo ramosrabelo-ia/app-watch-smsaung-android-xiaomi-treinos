@@ -16,6 +16,14 @@ A V15 foi desenhada para o uso real na academia: consultar o treino, trocar de d
 
 Os mockups em PNG e SVG estão em [`treino-da-luana/v15/docs/mockups`](treino-da-luana/v15/docs/mockups).
 
+## Interface V15 no celular Xiaomi
+
+<p align="center">
+  <img src="treino-da-luana/v15/docs/mockups/phone-v15-home.svg" width="360" alt="Tela inicial do Treino da Luana V15 no celular Xiaomi">
+</p>
+
+A versão para celular mantém o visual Premium Obsidian, os quatro treinos A, B, C e D, o progresso semanal, o cadastro de cargas e o painel de conexão com o Galaxy Watch8.
+
 ## O que mudou na V15
 
 ### Navegação orgânica
